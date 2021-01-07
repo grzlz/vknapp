@@ -5,7 +5,6 @@ import "./NavBar.css";
 
 const { Header } = Layout;
 
-const SubMenu = Menu.SubMenu;
 const MenuItemGroup = Menu.ItemGroup;
 
 class NavBar extends Component {
@@ -37,25 +36,19 @@ class NavBar extends Component {
               </Link>
             </Menu.Item>
             <Menu.Item key="publications">
-              <Link to="">
+              <Link to="/publications">
                 <Icon type="file-done" />
                 Publications
               </Link>
             </Menu.Item>
             <Menu.Item key="teaching">
-              <Link to="">
+              <Link to="/teaching">
                 <Icon type="read" />
                 Teaching
               </Link>
             </Menu.Item>
-            <Menu.Item key="software">
-              <Link to="">
-                <Icon type="branches" />
-                Software
-              </Link>
-            </Menu.Item>
             <Menu.Item key="personal">
-              <Link to="">
+              <Link to="/personal">
                 <Icon type="user" />
                 Personal
               </Link>
