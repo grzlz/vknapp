@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import { Menu, Icon, Row, Col, Avatar, Divider, Timeline } from "antd";
+import { Icon, Row, Col, Avatar, Divider, Timeline } from "antd";
 import "./HomePage.css";
 
 const hrStyle = {

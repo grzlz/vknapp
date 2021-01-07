@@ -5,8 +5,6 @@ import "./NavBar.css";
 
 const { Header } = Layout;
 
-const MenuItemGroup = Menu.ItemGroup;
-
 class NavBar extends Component {
   state = {
     current: "mail"
